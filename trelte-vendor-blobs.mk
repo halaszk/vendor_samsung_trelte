@@ -148,4 +148,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/trelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/trelte/proprietary/bin/IPSecService:system/bin/IPSecService \
-    vendor/samsung/trelte/proprietary/bin/vcsFPService:system/bin/vcsFPService
+    vendor/samsung/trelte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/trelte/proprietary/bin/actlmand:system/bin/actlmand
