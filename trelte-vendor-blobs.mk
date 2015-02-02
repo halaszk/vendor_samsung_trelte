@@ -152,4 +152,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/actlmand:system/bin/actlmand \
     vendor/samsung/trelte/proprietary/bin/argosd:system/bin/argosd \
     vendor/samsung/trelte/proprietary/bin/mmd:system/bin/mmd \
-    vendor/samsung/trelte/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy
+    vendor/samsung/trelte/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
+    vendor/samsung/trelte/proprietary/bin/rild:system/bin/rild
