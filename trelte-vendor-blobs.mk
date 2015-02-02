@@ -142,4 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/trelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/trelte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/trelte/proprietary/lib/libvdis.so:system/lib/libvdis.so
+    vendor/samsung/trelte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
+    vendor/samsung/trelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/trelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/trelte/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/trelte/proprietary/lib/librilutils.so:system/lib/librilutils.so
