@@ -155,4 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
     vendor/samsung/trelte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/trelte/proprietary/bin/lhd:system/bin/lhd \
-    vendor/samsung/trelte/proprietary/etc/lhd.conf:system/etc/lhd.conf
+    vendor/samsung/trelte/proprietary/etc/lhd.conf:system/etc/lhd.conf \
+    vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex \
+    vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
+    vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice
