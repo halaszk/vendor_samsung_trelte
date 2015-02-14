@@ -143,7 +143,6 @@ cck_onecore_tx=1
 #muxenab=0x4
 # ###########  BTC Dynctl profile params 2-antenna scenario - updated on 8/6  ############
 btc_params82=0x0
-btc_params51=0x409f
 # flags:bit0 - dynctl enabled, bit1 dynamic desense, bit2 dynamic mode - updated on 8/28
 btcdyn_flags=0x7
 btcdyn_dflt_dsns_level=0

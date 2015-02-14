@@ -147,7 +147,7 @@ swctrlmap_2g=0x10211021,0x28510000,0x08110000,0x020202,0x0ff
 #muxenab=0x4
 
 btc_params82=0x0
-btc_params51=0x409f
+
 # ###########  BTC Dynctl profile params  ############
 # flags:bit0 - dynctl enabled, bit1 dynamic desense, bit2 dynamic mode
 

@@ -36,6 +36,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
     vendor/samsung/trelte/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
     vendor/samsung/trelte/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
+    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/trelte/proprietary/vendor/firmware/hevc_fw.bin:system/vendor/firmware/hevc_fw.bin \
     vendor/samsung/trelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/trelte/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:system/vendor/firmware/fimc_is_fw2_imx240.bin \
@@ -92,6 +98,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/trelte/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
     vendor/samsung/trelte/proprietary/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so \
+    vendor/samsung/trelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    vendor/samsung/trelte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
+    vendor/samsung/trelte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/trelte/proprietary/vendor/firmware/setfile_6d1.bin:system/vendor/firmware/setfile_6d1.bin \
     vendor/samsung/trelte/proprietary/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin \
     vendor/samsung/trelte/proprietary/bin/gpsd:system/bin/gpsd \
@@ -100,6 +109,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
     vendor/samsung/trelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/trelte/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
+    vendor/samsung/trelte/proprietary/bin/lhd:system/bin/lhd \
+    vendor/samsung/trelte/proprietary/etc/lhd.conf:system/etc/lhd.conf \
+    vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
+    vendor/samsung/trelte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
     vendor/samsung/trelte/proprietary/lib/hw/sensors.universal5433.so:system/lib/hw/sensors.universal5433.so \
     vendor/samsung/trelte/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/trelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -107,6 +120,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/trelte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/trelte/proprietary/bin/exyrngd:system/bin/exyrngd \
+    vendor/samsung/trelte/proprietary/bin/argosd:system/bin/argosd \
+    vendor/samsung/trelte/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
+    vendor/samsung/trelte/proprietary/bin/IPSecService:system/bin/IPSecService \
+    vendor/samsung/trelte/proprietary/bin/mmd:system/bin/mmd \
+    vendor/samsung/trelte/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/trelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/trelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/trelte/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/trelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/trelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/trelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/trelte/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
@@ -134,28 +156,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/trelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/trelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/trelte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/trelte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/trelte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/trelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/trelte/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/trelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/trelte/proprietary/bin/IPSecService:system/bin/IPSecService \
-    vendor/samsung/trelte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
-    vendor/samsung/trelte/proprietary/bin/actlmand:system/bin/actlmand \
-    vendor/samsung/trelte/proprietary/bin/argosd:system/bin/argosd \
-    vendor/samsung/trelte/proprietary/bin/mmd:system/bin/mmd \
-    vendor/samsung/trelte/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
-    vendor/samsung/trelte/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/trelte/proprietary/bin/lhd:system/bin/lhd \
-    vendor/samsung/trelte/proprietary/etc/lhd.conf:system/etc/lhd.conf \
-    vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex \
     vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
-    vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice
+    vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex
