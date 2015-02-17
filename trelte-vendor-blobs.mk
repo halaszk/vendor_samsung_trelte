@@ -114,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/trelte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
     vendor/samsung/trelte/proprietary/lib/hw/sensors.universal5433.so:system/lib/hw/sensors.universal5433.so \
+    vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/trelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/trelte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
