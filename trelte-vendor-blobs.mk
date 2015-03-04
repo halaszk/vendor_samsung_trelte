@@ -164,4 +164,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/trelte/proprietary/bin/connfwexe:system/bin/connfwexe \
     vendor/samsung/trelte/proprietary/bin/ddexe:system/bin/ddexe \
-    vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe
+    vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe \
+    vendor/samsung/trelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
