@@ -160,4 +160,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
     vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/trelte/proprietary/lib/libagc_max.so:system/lib/libagc_max.so \
-    vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so
+    vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so \
+    vendor/samsung/trelte/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/trelte/proprietary/bin/connfwexe:system/bin/connfwexe \
+    vendor/samsung/trelte/proprietary/bin/ddexe:system/bin/ddexe \
+    vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe
