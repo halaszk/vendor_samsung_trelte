@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-    vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/trelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/trelte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
@@ -153,10 +152,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex \
     vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
     vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
-    vendor/samsung/trelte/proprietary/lib/libagc_max.so:system/lib/libagc_max.so \
     vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/trelte/proprietary/bin/connfwexe:system/bin/connfwexe \
     vendor/samsung/trelte/proprietary/bin/ddexe:system/bin/ddexe \
     vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe \
-    vendor/samsung/trelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
+    vendor/samsung/trelte/proprietary/bin/bridge_relay:system/bin/bridge_relay \
+    vendor/samsung/trelte/proprietary/bin/cs:system/bin/cs \
+    vendor/samsung/trelte/proprietary/bin/ddexe_real:system/bin/ddexe_real \
+    vendor/samsung/trelte/proprietary/bin/insthk:system/bin/insthk \
+    vendor/samsung/trelte/proprietary/bin/mdnsd:system/bin/mdnsd \
+    vendor/samsung/trelte/proprietary/bin/mld:system/bin/mld \
+    vendor/samsung/trelte/proprietary/bin/olsrd:system/bin/olsrd \
+    vendor/samsung/trelte/proprietary/bin/ss_conn_daemon:system/bin/ss_conn_daemon \
+    vendor/samsung/trelte/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/samsung/trelte/proprietary/etc/gps.xml:system/etc/gps.xml \
+    vendor/samsung/trelte/proprietary/etc/gps.xml:system/etc/plmn_se13.bin \
+    vendor/samsung/trelte/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
+    vendor/samsung/trelte/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/trelte/proprietary/etc/wifi/bcmdhd_sta_tput.bin:system/etc/wifi/bcmdhd_sta_tput.bin \
+    vendor/samsung/trelte/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
+    vendor/samsung/trelte/proprietary/lib/libHrmEol.so:system/lib/libHrmEol.so
