@@ -88,7 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin \
     vendor/samsung/trelte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/trelte/proprietary/bin/gps.cer:system/bin/gps.cer \
-    vendor/samsung/trelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/trelte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.universal5433.so \
     vendor/samsung/trelte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/trelte/proprietary/bin/lhd:system/bin/lhd \
     vendor/samsung/trelte/proprietary/etc/lhd.conf:system/etc/lhd.conf \
