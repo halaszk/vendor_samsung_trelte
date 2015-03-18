@@ -137,4 +137,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
-    vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex
+    vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex \
+    vendor/samsung/trelte/proprietary/bin/bridge_relay:system/bin/bridge_relay
