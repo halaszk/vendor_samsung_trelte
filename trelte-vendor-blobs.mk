@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-    vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     vendor/samsung/trelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/trelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/trelte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
@@ -153,10 +152,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex \
     vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
     vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
-    vendor/samsung/trelte/proprietary/lib/libagc_max.so:system/lib/libagc_max.so \
     vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/trelte/proprietary/bin/connfwexe:system/bin/connfwexe \
     vendor/samsung/trelte/proprietary/bin/ddexe:system/bin/ddexe \
-    vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe \
-    vendor/samsung/trelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
+    vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe
