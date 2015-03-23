@@ -140,21 +140,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/trelte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/trelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/samsung/trelte/proprietary/bin/IPSecService:system/bin/IPSecService \
-    vendor/samsung/trelte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
-    vendor/samsung/trelte/proprietary/bin/actlmand:system/bin/actlmand \
-    vendor/samsung/trelte/proprietary/bin/argosd:system/bin/argosd \
     vendor/samsung/trelte/proprietary/bin/mmd:system/bin/mmd \
     vendor/samsung/trelte/proprietary/bin/debug_interface_proxy:system/bin/debug_interface_proxy \
     vendor/samsung/trelte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/trelte/proprietary/bin/lhd:system/bin/lhd \
     vendor/samsung/trelte/proprietary/etc/lhd.conf:system/etc/lhd.conf \
-    vendor/samsung/trelte/proprietary/bin/npsmobex:system/bin/npsmobex \
-    vendor/samsung/trelte/proprietary/bin/drsd:system/bin/drsd \
     vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte/proprietary/bin/at_distributor:system/bin/at_distributor \
-    vendor/samsung/trelte/proprietary/bin/connfwexe:system/bin/connfwexe \
-    vendor/samsung/trelte/proprietary/bin/ddexe:system/bin/ddexe \
-    vendor/samsung/trelte/proprietary/bin/smdexe:system/bin/smdexe \
     vendor/samsung/trelte/proprietary/bin/bridge_relay:system/bin/bridge_relay
