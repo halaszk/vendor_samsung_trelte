@@ -148,4 +148,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trelte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/trelte/proprietary/lib/hw/sensorhubs.universal5433.so:system/lib/hw/sensorhubs.universal5433.so \
     vendor/samsung/trelte/proprietary/bin/at_distributor:system/bin/at_distributor \
-    vendor/samsung/trelte/proprietary/bin/bridge_relay:system/bin/bridge_relay
+    vendor/samsung/trelte/proprietary/bin/bridge_relay:system/bin/bridge_relay \
+    vendor/samsung/trelte/proprietary/etc/wifi/bcmdhd_sta_tput.bin:system/etc/wifi/bcmdhd_sta_tput.bin
